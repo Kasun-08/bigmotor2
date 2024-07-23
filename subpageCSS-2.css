@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #87CEEB, #4682B4);
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #1a5f7a;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 20px 0;
+  }
+
+  .container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .container-1 > div {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    width: calc(50% - 14px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: 500px; /* Set a fixed height */
+    overflow-y: auto; /* Add vertical scroll if content exceeds height */
+  }
+
+  .container-1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease; /* Add transition for transform */
+  }
+
+  .container-1 img:hover {
+    transform: scale(1.05); /* Scale image on hover */
+  }
+
+  ul {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  form h2 {
+    text-align: center;
+    color: #1a5f7a;
+  }
+
+  form label {
+    display: block;
+    margin-top: 5px;
+    color: #1a5f7a;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="date"],
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  form input[type="submit"] {
+    background-color: #1a5f7a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  form input[type="submit"]:hover {
+    background-color: #154c61;
+  }
+
+  /* Styling the scrollbar for WebKit browsers */
+  .container-1 > div::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .container-1 > div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+ .container-1 > div::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+
+  .container-1 > div::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  @media (max-width: 768px) {
+    .container-1 {
+      flex-direction: column;
+    }
+    .container-1 > div {
+      width: 100%;
+      margin-bottom: 20px;
+      height: auto; /* Remove fixed height on mobile */
+      max-height: 500px; /* Set a max-height instead */
+    }
+  }
+  
+  	/* CSS for navigation bar */
+    nav {
+      background-color: #333;
+      overflow: hidden;
+	  border-radius : 5px;
+	  /*position: fixed;*/
+	  width : 100%
+    }
+	
+	/* Show nav bar always */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+    nav a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+	  border-radius : 5px 25px;
+    }
+
+ 		
+	/* ---------Styling for the "Top text"---------------------------- */
+	.scrollbutton {
+    position: fixed; /* Fixed position */
+    bottom: 30px; /* 30px from the bottom */
+    right: 30px; /* 30px from the right */
+    background-color: #1b5490; /* Button color */
+    color: #e8e8e8; /* Text color */
+    padding: 10px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Font size */
+}
+/* ---------Hover effect for the "Top text"---------------------------- */
+.scrollbutton:hover {
+   
+    padding: 13px; /* Increase padding on hover */
+}
+  

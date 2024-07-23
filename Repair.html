@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Repair Page</title>
+
+<link rel="stylesheet" href="subpageCSS.css">
+
+ <!--
+ <style>
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #87CEEB, #4682B4);
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #1a5f7a;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 20px 0;
+  }
+
+  .container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .container-1 > div {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    width: calc(33.33% - 14px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: 500px; /* Set a fixed height */
+    overflow-y: auto; /* Add vertical scroll if content exceeds height */
+  }
+
+  .container-1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease; /* Add transition for transform */
+  }
+
+  .container-1 img:hover {
+    transform: scale(1.05); /* Scale image on hover */
+  }
+
+  ul {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  form h2 {
+    text-align: center;
+    color: #1a5f7a;
+  }
+
+  form label {
+    display: block;
+    margin-top: 5px;
+    color: #1a5f7a;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="date"],
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  form input[type="submit"] {
+    background-color: #1a5f7a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  form input[type="submit"]:hover {
+    background-color: #154c61;
+  }
+
+  /* Styling the scrollbar for WebKit browsers */
+  .container-1 > div::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .container-1 > div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+ .container-1 > div::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+
+  .container-1 > div::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  @media (max-width: 768px) {
+    .container-1 {
+      flex-direction: column;
+    }
+    .container-1 > div {
+      width: 100%;
+      margin-bottom: 20px;
+      height: auto; /* Remove fixed height on mobile */
+      max-height: 500px; /* Set a max-height instead */
+    }
+  }
+
+
+	/* CSS for navigation bar */
+    nav {
+      background-color: #333;
+      overflow: hidden;
+	  border-radius : 5px;
+	  /*position: fixed;*/
+	  width : 100%
+    }
+	
+	/* Show nav bar always */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+    nav a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+	  border-radius : 5px 25px;
+    }
+	
+	
+	
+		
+	/* ---------Styling for the "Top text"---------------------------- */
+	.scrollbutton {
+    position: fixed; /* Fixed position */
+    bottom: 30px; /* 30px from the bottom */
+    right: 30px; /* 30px from the right */
+    background-color: #1b5490; /* Button color */
+    color: #e8e8e8; /* Text color */
+    padding: 10px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Font size */
+}
+/* ---------Hover effect for the "Top text"---------------------------- */
+.scrollbutton:hover {
+   
+    padding: 13px; /* Increase padding on hover */
+}
+  
+
+</style>
+ -->
+</head>
+<body>
+
+
+<a id="top"></a>  <!--Anchor at the top of the page -->
+<a href="#top" class="scrollbutton">Top</a> <!--Anchor for the "Top" Text-->
+
+
+<nav>
+    <a href="index.html" >Home</a>
+    <a href="Service.html">Services</a>
+	<a href="Repair.html">Repair</a> 
+	<a href="AccidentRepair.html">Accident Repair</a> 
+	<a href="OtherServises.html">Other Services</a>
+    <a href="index.html#contact info">Contact</a>
+  </nav>
+
+<h1>Vehicle Repair</h1>
+
+<div class="container-1">
+
+ <div class="box-1">
+ <h3>Mechanical Repair</h3>
+ <img src="auto-repair-greenville.jpg"alt="mechanical repair image" >
+ <h5>Engine Repair</h5>
+<p>Vehicle engine is one of main mechanical component of the vehicle and it is almost equal to the heart of a human body. Hence it is recommended that you take assistance from an experienced technician for any repair related to the vehicle engine and our qualified technicians are well trained and having the more expertise to provide such services to all our customers with the utmost trust.</p>
+
+<h5>Transmission Repair</h5>
+<p>The gear system is considered to be one of the most important and complex systems in the vehicle, inbuilt with a set of mechanical parts and electronic sensors. It is essential to have accurate data, specialized equipment as well as the services of experienced technicians for troubleshooting the errors in this system. The modern vehicles are having high tech transmission systems and it is important to handle qualified professionals in your vehicle to rectifying of such troubleshoots and Sterling having the relevant experience over a period of decades as we operates forefront in the automobile sector since long time.</p>
+
+<h5>Brake Repair</h5>
+<p>The brake system is one of the core safety feature in a motor vehicle. Therefore, the proper maintenance of the brake system of a vehicle is a key factor in ensuring the vehicle safety as well as the occupants of the car.</p>
+
+<h5>Suspension Repair</h5>
+<p>The one main fact of vehicle comparability assured by good suspension system and car manufacturers are particularly concerned about the enhanced comfort of the occupants of the vehicles, by developing the high advance suspension systems to the vehicles. Therefore, proper maintenance of the suspension system is essential for a comfortable ride of your vehicle and our experienced technicians are ready to handle any type of suspension issue in your vehicle at our workshops.</p>
+
+ </div>
+ <div class="box-2">
+ <h3>Electrical & Electronic Repair</h3>
+<img src="unnamed.jpg"alt="E&E repair image" ><h5>Electrical System Repair</h5>
+<p>Electrical faults do not usually appear as mechanical faults, and the services of expert automotive technicians with a thorough knowledge and experience with the correct fault testing equipment and electronics are essential to check them.</P>
+
+
+<h5>Electronic Repair</h5>
+<p>Today’s world many vehicles comes with high tech electrical systems contain of many expensive control modules embedded with advance technology. Sterling technicians are qualified and trained to repair such electrical systems in your vehicle with the right technical know-how  instead of completely replacing component units in the system when they are faulty.</P>
+
+
+<h5>Vehicle Scanning</h5>
+<p>Vehicle scanning is a essential process to diagnose the faults of the vehicle and today’s world, sophisticated scanning facilities are a must to diagnose sophisticated electrical systems in cars, and other modern vehicles to identify the correct functionality of systems or detect the errors. Sterling is one of the pioneer in the automobile sector by introducing the newer scanners to diagnose the faults of the vehicles first time in our country and we assure to provide the best service to all our customers in all time.</P>
+
+<h5>Hybrid System Maintenance</h5>
+<img src="IMI-L2-AWARD-IN-ELECTRICHYBRID-VEHICLE-ROUTINE-MAINTENANCE-ACTIVITIES-L3-SYSTEM-REPAIR-REPLACEMENT-COMBINED-Motor-Vehicle-640x324.jpg"alt="Hybrid maintenance image" >
+
+<p>Hybrid batteries in hybrid or electric vehicles are one of the core component of the vehicle. The proper maintenance can extend the life of the high voltage battery and help maintain the correct performance of the vehicle. Our expertise in the area of hybrid system maintenance is iconically established in the market since long time and our strength in this area cannot be matched to any one in the Sri Lankan market.</P>
+
+ </div>
+  <div class="box-3">
+ <h3>A/C maintenance</h3>
+<img src="car-ac-repair.jpeg"alt="A/C maintenance image" >
+ <h5>A/C Service</h5>
+<p>Air conditioning system is a crucial component of a vehicle to provide comfortability of the vehicle occupants.Hence it is important to proper maintenance of the air conditioning system of a vehicle in regular intervals and this may increase the life of its components, minimize damages, and maintain the comfort of the occupants.</p>
+
+<h5>A/C Repair</h5>
+
+<p>Air conditioning system is a crucial component of a vehicle to provide comfortability of the vehicle occupants.Hence it is important to proper maintenance of the air conditioning system of a vehicle in regular intervals and this may increase the life of its components, minimize damages, and maintain the comfort of the occupants.</p>
+
+ </div>
+</div>
+
+<div>
+	<form action="submit_form.php" method="post">
+        <h2>BOOK NOW!!</h2>
+
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+       
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="carMake">Car Make:</label>
+        <input type="text" id="carMake" name="carMake" required>
+        
+        <label for="carModel">Car Model:</label>
+        <input type="text" id="carModel" name="carModel" required>
+        
+        <label for="serviceDate">Preferred Service Date:</label>
+        <input type="date" id="serviceDate" name="serviceDate" required>
+        
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+        
+        <input type="submit" value="Book Service">
+    </form>
+	</div>
+
+</body>
+</html>
