@@ -4,11 +4,16 @@ BigMotor is a clean and professional automotive services landing page designed t
 
 🛠 Features
 
-✔ Hero section with call-to-action and contact details /br
+✔ Hero section with call-to-action and contact details
+
 ✔ Services overview (Repair, Accident Repair, Other Services)
+
 ✔ Interactive form for booking appointments
+
 ✔ Contact info with address and phone/email
+
 ✔ Social media links (FB, Instagram, LinkedIn, Twitter)
+
 
 🧩 Tech
 
